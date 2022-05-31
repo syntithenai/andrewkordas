@@ -10,23 +10,23 @@ export default function HomePage(props) {
        <div style={{fontStyle:'italic', marginTop:'1em', marginBottom:'1em'}} >Servicing the Bega Valley Shire and Beyond</div>
        <Container>
          <Row>
-         <Col sm="12" style={{border:'1px solid black'}}>
+         <Col sm="12" md="6" lg="4" style={{border:'1px solid black'}}>
            <h3>Bow Restringing</h3>
            <div style={{marginTop:'1em', marginBottom:'1em'}} >
            My bread and butter. I have access to a range of horse hairs and hardware to suit your bow.
            </div>
         </Col>
-        <Col sm="12" style={{border:'1px solid black'}} >
+        <Col sm="12" md="6" lg="4" style={{border:'1px solid black'}} >
            <h3>Setup</h3>
            <div style={{marginTop:'1em', marginBottom:'1em'}} >
            Ensuring bridge and soundpost are set correctly will help get the best sound from your instrument.
            This is especially important for new instruments as they settle.
            </div>
          </Col>
-         <Col sm="12" style={{border:'1px solid black'}} >
+         <Col sm="12" md="6" lg="4" style={{border:'1px solid black'}} >
           <img src="/workbench.jpg"  style={{width:'90%'}}  />
          </Col>
-         <Col sm="12" style={{border:'1px solid black'}} >
+         <Col sm="12"  md="6" lg="6" style={{border:'1px solid black'}} >
            <h3> Repairs</h3>
            <div>
            No job too big or too small.... but some things ain't worth fixing and other times, a patch is enough.
@@ -34,7 +34,7 @@ export default function HomePage(props) {
            <div style={{marginTop:'1em', marginBottom:'1em'}} >I'll make sure you understand what I can do for you and how much it will cost before I get started.</div>
            </div>
          </Col>
-         <Col sm="12" style={{border:'1px solid black'}} >
+         <Col sm="12" md="6" lg="4" style={{border:'1px solid black'}} >
            <h3>Maintenance</h3>
            <div  style={{marginTop:'1em', marginBottom:'1em'}}>
            Regular maintenance of your instrument prevents future problems.

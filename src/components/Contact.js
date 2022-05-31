@@ -20,7 +20,7 @@ export default function Contact(props) {
        <br/>
        <br/>
        <div style={{width:'100%'}}>
-              <QRCodeSVG width='100%' height='100%' renderAs="svg" value={window.location.href} />
+              <QRCodeSVG width='80%' height='80%' renderAs="svg" value={window.location.href} />
        </div>
     </div>
 

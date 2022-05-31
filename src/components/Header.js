@@ -8,8 +8,9 @@ export default function Header(props) {
        <Link style={{marginLeft:'0.2em'}} to="/contact"><Button>Contact</Button></Link>
        <Link style={{marginLeft:'0.2em'}} to="/shipping"><Button>Shipping</Button></Link>
        <Link style={{marginLeft:'0.2em'}} to="/forsale"><Button>Instruments</Button></Link>
-       <Link style={{marginLeft:'0.2em'}} to="/tunes"><Button>Tunes</Button></Link>
     </div>
 
 }
+//   <Link style={{marginLeft:'0.2em'}} to="/tunes"><Button>Tunes</Button></Link>
+    
 
